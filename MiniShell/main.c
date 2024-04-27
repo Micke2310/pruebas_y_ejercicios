@@ -9,6 +9,7 @@
 int main(void)
 {
 		char *line;
+		char **args;
 
 		while (1)
 		{
@@ -22,9 +23,26 @@ int main(void)
 				break;
 			}
 
-			/*aqui se deberia de implemeetar la logica para ejcutar el comando*/
-			free(line); /*libera la memoria asignada por la funcion "read_line()"*/
+			args = split_line(line); /*divide la linea de comandos en argumentos */
+			if (args[0] != NULL) /*si hay argumentos*/
+			{
+				
+				if (_strcmp(args[0], "exit") == 0) /*si el comando es "exit"*/
+				{
+					free(line);
+					free(args);
+					break;
+				}
 
+				execute_command(args);/*ejecuta el comando*/
+			}
+
+			free(line); /* libera la memoria asignada por la funcion read_line*/
+			free(args); /* libera l amemoria asignada por la funcion split_line*/
+		}
+
+
+return (0);
 		}
 
 
