@@ -39,18 +39,28 @@ return (line);
 
 
 /**
- *_puts -imprime una cadena de caracteres en la salida estandar
- *@str: cadena de caracteres a imprimir
+ * split_line - divide una linea de comandos en argumentos
+ *@line_: linea de comandos a dividir
+ *
+ * Return: Array de punteros a cadenas decaracteres (argumentos)
  * */
 
-void _puts(char *str)
+char **split_line(char *line)
 {
-	while(*str)
-	{
-		putchar(*str); /*imprime el caracter actual*/
-		str++; /* avanza al siguiente caracter*/
-	}
+	/*implementacion dela funcion split_line aqui*/
 }
+
+/**
+ * execute_comannd - ejecuta un comando externo
+ *@args: array de puntero a cadenas de caracteres (argumentos)
+ * 
+ *Return: 1 si el comando se ejecuto correctamente, 0 si hubo un error
+ * */
+int execute_command(char **args)
+{
+	/* aqui la implementacion de la funcion execute_command*/
+}
+
 
 
 /**
