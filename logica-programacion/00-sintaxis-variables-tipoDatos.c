@@ -92,3 +92,17 @@ MY_CONSTANT = "Mi constante" # por convencion
 
 /*como imprimer texto en pantalla en C*/
 
+#include <stdio.h>
+int main()
+{
+printf( "Hola C!\n"); // printf() es de la biblioteca estandar (stdio.h), tambien puedo con los especificadores
+			  // imprimir valores o datos desde las variables.
+
+return (0);
+}
+
+
+#como imprimir texto en pantalla en Python
+
+print("Hola Python!")
+
