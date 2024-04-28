@@ -25,7 +25,7 @@ en Python
 '''
 
 
-/*VARAIABLES*/
+/*VARAIABLES en C = cajas donde guartdar datos , los cuales pueden cambiar tras cada llamado*/
 
 
 char variable_general = "esto es una caja donde guardar datos en sus distintos tipos"
@@ -42,3 +42,26 @@ short enteroCortos; // 1000 enteros cortos en C
 long enterosLargos; // 1000000L enteros largos en C
 long long enterosLargosLargos; // 1000000000LL enteros largos largos en C
 
+/**CONSTANTES EN C*/
+
+
+
+
+  
+
+#VARIABLES EN Python = son cajas donde guardamos datos los cuales pueden mutar en cada llamdo
+'''
+snake case... toda nueva palabra 
+se separa con '_' y en minusculas
+'''
+
+my_variable = "Mi variable"
+my_variable = "Nuevo valor de mi variable"
+
+#constantes = no existen como tal.
+'''
+no existen en Python
+puedo crear un av ariable con el nombre de constante
+pero solo sera como referencia al leer que no debo cambiar
+su valor y considerarlo como una CONSTANTE
+'''
