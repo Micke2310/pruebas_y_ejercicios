@@ -42,12 +42,17 @@ short enteroCortos; // 1000 enteros cortos en C
 long enterosLargos; // 1000000L enteros largos en C
 long long enterosLargosLargos; // 1000000000LL enteros largos largos en C
 
-/**CONSTANTES EN C*/
+/*CONSTANTES EN C = hay 2 formas de declarar constantes en C, se usan paar que su valores sean incambiables*/
+/*y evitar errores o fallas en durante la ejecucion del programa
+ * */
+
+/*por "#define"
+ * #define PI 3.141592653589793
+ * #define TAMANO_MAXIMO 100 
 
 
 
 
-  
 
 #VARIABLES EN Python = son cajas donde guardamos datos los cuales pueden mutar en cada llamdo
 '''
