@@ -51,6 +51,54 @@ Bits:
 */
 
 
+/*"Condicionales"*/
+
+if (condicion "= 0") {
+    // Código a ejecutar si la condición es verdadera
+}
+
+
+
+if (condicion "= 0") {
+    // Código a ejecutar si la condición es verdadera
+} else {
+    // Código a ejecutar si la condición es falsa
+}
+
+
+
+if (condicion1 "= 0") {
+    // Código a ejecutar si la condición1 es verdadera
+} else if (condicion2 "> 0") {
+    // Código a ejecutar si la condicion2 es verdadera
+} else {
+    // Código a ejecutar si ninguna de las condiciones anteriores es verdadera
+}
+
+
+
+/*"Iterativas:"*/
+
+while (condicion "= 0") {
+    // Código a ejecutar mientras la condición sea verdadera
+}
+
+
+
+do {
+    // Código a ejecutar al menos una vez
+} while (condicion "= 0");
+
+
+
+for (inicialización "i = 0"; condició "i <= 9"; "i++" actualización) {
+    // Código a ejecutar mientras la condición sea verdadera
+}
+
+
+
+
+
 # PYTHON
 """
 Aritméticos:
@@ -107,3 +155,56 @@ Bits:
 """
 
 
+
+Condicionales"
+
+if condicion:
+    # Código a ejecutar si la condición es verdadera
+
+
+
+if condicion:
+    # Código a ejecutar si la condición es verdadera
+else:
+    # Código a ejecutar si la condición es falsa
+
+
+
+
+if condicion1:
+    # Código a ejecutar si la condición1 es verdadera
+elif condicion2:
+    # Código a ejecutar si la condición2 es verdadera
+else:
+    # Código a ejecutar si ninguna de las condiciones anteriores es verdadera
+
+
+
+
+
+"Iterativas"
+
+while condicion:
+    # Código a ejecutar mientras la condición sea verdadera
+
+
+
+for elemento in secuencia:
+    # Código a ejecutar para cada elemento de la secuencia
+
+
+
+"Excepciones"
+
+try:
+    # Código que puede lanzar una excepción
+except TipoDeExcepcion as nombre_de_excepcion:
+    # Código a ejecutar si se captura la excepción
+else:
+    # Código a ejecutar si no se lanza ninguna excepción
+finally:
+    # Código que se ejecuta siempre, independientemente de si se lanzó una excepción o no
+
+
+
+raise TipoDeExcepcion("Mensaje de error")  #exepcion manual
