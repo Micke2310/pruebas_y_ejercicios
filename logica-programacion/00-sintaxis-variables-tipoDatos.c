@@ -87,7 +87,7 @@ pero solo sera como referencia al leer que no debo cambiar
 su valor y considerarlo como una CONSTANTE
 '''
 
-MY_CONSTANT = "Mi constante" # por convencion
+MY_CONSTANT = "Mi constante" # por convencion va en mayusculas a diferencia de la variable 
 
 
 /*como imprimer texto en pantalla en C*/
@@ -105,4 +105,8 @@ return (0);
 #como imprimir texto en pantalla en Python
 
 print("Hola Python!")
+print(type(my_int)) # esto es una funcion de sistema "type()" que me dira el tipo de dato de mi variable.
+print(type(my_float))
+print(type(my_bool))
+print(type(my_str))
 
