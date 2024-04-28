@@ -46,9 +46,18 @@ long long enterosLargosLargos; // 1000000000LL enteros largos largos en C
 /*y evitar errores o fallas en durante la ejecucion del programa
  * */
 
-/*por "#define"
- * #define PI 3.141592653589793
- * #define TAMANO_MAXIMO 100 
+/*por "#define" no utiliza memoria del programa, se pueden remplazar/modificar  directo en el codigo fuente
+ * "#define" PI 3.141592653589793
+ * "#define" TAMANO_MAXIMO 100 */
+
+/*por palabra clave "const", SI ocupan memoria ,porque son inmutables, no cambian nuca su valor
+ * "const float" = 3.141592653589793;
+ * "const int" = 100;
+ * */
+
+/*"EN RESUMEN , CONSTANTES EN C, SON VALORES QUE NO CAMBIAN DURANTE LA EJECUCUIN DEL PROGRAMA, HACEN QUE EL CODIGO SEA
+ *  MAS LEGIBLE , MANTENIBLE Y MENOS PROPENSO A ERRORES ACCIDENTALES."
+ *  */
 
 
 
@@ -62,6 +71,13 @@ se separa con '_' y en minusculas
 
 my_variable = "Mi variable"
 my_variable = "Nuevo valor de mi variable"
+my_int = 1
+my_float = 1.5
+my_boll = true
+my_boll = false
+my_string = "mi cadena de texto"
+my_orther_string = 'mi otra cadena de texto, con comillas simples'
+
 
 #constantes = no existen como tal.
 '''
@@ -70,3 +86,9 @@ puedo crear un av ariable con el nombre de constante
 pero solo sera como referencia al leer que no debo cambiar
 su valor y considerarlo como una CONSTANTE
 '''
+
+MY_CONSTANT = "Mi constante" # por convencion
+
+
+/*como imprimer texto en pantalla en C*/
+
