@@ -100,7 +100,7 @@ for (inicialización "i = 0"; condició "i <= 9"; "i++" actualización) {
 
 /*
 # PYTHON
-"""
+
 Aritméticos:
 +: Suma
 -: Resta
@@ -152,7 +152,7 @@ Bits:
 ~: Complemento a uno (NOT a nivel de bits)
 <<: Desplazamiento a la izquierda
 >>: Desplazamiento a la derecha
-"""
+
 
 
 
@@ -182,21 +182,20 @@ else:
 
 
 
-"Iterativas"
+Iterativas
 
 while condicion:
     # Código a ejecutar mientras la condición sea verdadera
 
 
 
-for elemento in secuencia:
-    # Código a ejecutar para cada elemento de la secuencia
-
+*for elemento in secuencia:
+    # Código a ejecutar para cada elemento de la secuencia*/
 
 
 "Excepciones"
 
-try:
+/**try:
     # Código que puede lanzar una excepción
 except TipoDeExcepcion as nombre_de_excepcion:
     # Código a ejecutar si se captura la excepción
@@ -217,11 +216,14 @@ raise TipoDeExcepcion("Mensaje de error")  #exepcion manual*/
 int main(void)
 {
 int num = 10;
-int i;
 
-if (num <16 && <1
-
-
+if ( != 16 && num %3 != 0)
+{
+	if (num %2 == 0 && num <= 55)
+	{
+		printf("los numeros enteros entre el 10 y 55 inclusive son : %d \n", num)
+	}		
+}
 
 
 
