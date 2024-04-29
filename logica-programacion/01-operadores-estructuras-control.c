@@ -53,7 +53,7 @@ Bits:
 
 /*"Condicionales"*/
 
-if (condicion "= 0") {
+/*if (condicion "= 0") {
     // Código a ejecutar si la condición es verdadera
 }
 
@@ -75,11 +75,11 @@ if (condicion1 "= 0") {
     // Código a ejecutar si ninguna de las condiciones anteriores es verdadera
 }
 
-
+*/
 
 /*"Iterativas:"*/
 
-while (condicion "= 0") {
+/*while (condicion "= 0") {
     // Código a ejecutar mientras la condición sea verdadera
 }
 
@@ -94,11 +94,11 @@ do {
 for (inicialización "i = 0"; condició "i <= 9"; "i++" actualización) {
     // Código a ejecutar mientras la condición sea verdadera
 }
+*/
 
 
 
-
-
+/*
 # PYTHON
 """
 Aritméticos:
@@ -156,7 +156,7 @@ Bits:
 
 
 
-Condicionales"
+Condicionales
 
 if condicion:
     # Código a ejecutar si la condición es verdadera
@@ -207,4 +207,23 @@ finally:
 
 
 
-raise TipoDeExcepcion("Mensaje de error")  #exepcion manual
+raise TipoDeExcepcion("Mensaje de error")  #exepcion manual*/
+
+
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void)
+{
+int num = 10;
+int i;
+
+if (num <16 && <1
+
+
+
+
+
+return (0);
+}
