@@ -209,6 +209,8 @@ finally:
 raise TipoDeExcepcion("Mensaje de error")  #exepcion manual*/
 
 
+/*forma de sumar directamente en la cadena a imprimir en python*/
+/* pint(f"suma: 10 + 3 = {10 + 3}"); */
 
 #include <stdio.h>
 #include <stdlib.h>
