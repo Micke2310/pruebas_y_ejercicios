@@ -216,19 +216,17 @@ raise TipoDeExcepcion("Mensaje de error")  #exepcion manual*/
 int main(void)
 {
 int num;
-int  i;
+int  i = 10;
 
-	while(i = 0; i <= 55; i++)
+	while(i <= 55)
 	{	
-		if ( i != 16; && i %3 != 0)
+		if(i != 16 && i %3 != 0 && i %2 == 0)
 		{
-			if (i %2 == 0; && i <= 55)
-			{
-				printf("los numeros enteros entre el 10 y 55 inclusive son : %d \n", num);
-			}		
+				printf("los numeros enteros entre el 10 y 55 inclusive son : %d \n", num);		
+		
 		}
-
-
+	i ++;
+	num = i;
 	}
 return (0);
 }
