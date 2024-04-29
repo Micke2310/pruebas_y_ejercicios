@@ -193,7 +193,7 @@ while condicion:
     # Código a ejecutar para cada elemento de la secuencia*/
 
 
-"Excepciones"
+/*"Excepciones"*/
 
 /**try:
     # Código que puede lanzar una excepción
@@ -215,17 +215,20 @@ raise TipoDeExcepcion("Mensaje de error")  #exepcion manual*/
 
 int main(void)
 {
-int num = 10;
+int num;
+int  i;
 
-if ( != 16 && num %3 != 0)
-{
-	if (num %2 == 0 && num <= 55)
-	{
-		printf("los numeros enteros entre el 10 y 55 inclusive son : %d \n", num)
-	}		
-}
+	while(i = 0; i <= 55; i++)
+	{	
+		if ( i != 16 && i %3 != 0)
+		{
+			if (i %2 == 0 && i <= 55)
+			{
+				printf("los numeros enteros entre el 10 y 55 inclusive son : %d \n", num);
+			}		
+		}
 
 
-
+	}
 return (0);
 }
