@@ -1,4 +1,4 @@
-/* EN C*/
+/* "EN C"*/
 
 /*Aritméticos:
 +: Suma
@@ -51,7 +51,7 @@ Bits:
 */
 
 
-/*"Condicionales"*/
+/*Condicionales*/
 
 /*if (condicion "= 0") {
     // Código a ejecutar si la condición es verdadera
@@ -77,7 +77,7 @@ if (condicion1 "= 0") {
 
 */
 
-/*"Iterativas:"*/
+/*Iterativas:*/
 
 /*while (condicion "= 0") {
     // Código a ejecutar mientras la condición sea verdadera
@@ -99,7 +99,7 @@ for (inicialización "i = 0"; condició "i <= 9"; "i++" actualización) {
 
 
 /*
-# PYTHON
+# "PYTHON"
 
 Aritméticos:
 +: Suma
@@ -193,7 +193,7 @@ while condicion:
     # Código a ejecutar para cada elemento de la secuencia*/
 
 
-/*"Excepciones"*/
+/*Excepcione*/
 
 /**try:
     # Código que puede lanzar una excepción
@@ -212,6 +212,11 @@ raise TipoDeExcepcion("Mensaje de error")  #exepcion manual*/
 /*forma de sumar directamente en la cadena a imprimir en python*/
 /* pint(f"suma: 10 + 3 = {10 + 3}"); */
 
+
+
+
+/*EJERCICIO EN C: HAYAR LOS NUMEROS ENTEROS ENTRE EL 10 Y 55 INCLUSIVE, ESCEPTUANDO AL 16 Y LOS MULTIPLOS DE 3, ADEMAS SOLO 
+ * TENER EN CUENTA LOS NUMEROS PARES*/
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -231,4 +236,10 @@ int  i = 10;
 	num = i;
 	}
 return (0);
+
 }
+/*"ejercicio en python"*/
+
+/*"for number in range(10,56): 
+	if number %2 == 0 and number != 16 and number %3 != 0:
+	print(number)"*/
